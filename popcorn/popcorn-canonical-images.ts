@@ -33,10 +33,18 @@ export interface PopcornImageHistoryDocument {
 export const POPCORN_IMAGE_HISTORY: ReadonlyArray<PopcornImageHistoryEntry> = [
   {
     type: 'gcp-confidential-space',
+    workload: 'browser-runtime@sha256:6153e72008131ce7c278d8aa8279043bfb5ce63401deb50159d323fa276d7928',
+    verifier: 'browser-runtime-attestor@sha256:3470492e9007c33f4dc86bfa81671e51402a09fc72ce7fbfa2882e41fbee94a5',
+    releaseTime: '2026-10-22T17:21:01Z',
+    deprecateTime: null,
+    sourceCommit: '3f5697efe6684b1b413a8954b6f0306b211d3629',
+  },
+  {
+    type: 'gcp-confidential-space',
     workload: 'browser-runtime@sha256:67501d208351376252cb30abb3677643e0a986d33ea2fefe1998db1dc60c7a45',
     verifier: 'browser-runtime-attestor@sha256:a1a550f7a39cbba9d052c655941976cf00a04a4dea4e4671f82ebb5982095654',
     releaseTime: '2026-10-22T15:43:20Z',
-    deprecateTime: null,
+    deprecateTime: '2026-10-22T17:21:01Z',
     sourceCommit: '803aa96aac2dbe276072dd2c57a6c325352fbad2',
   },
   {
